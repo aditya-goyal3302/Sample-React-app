@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './home1.module.css'
-import img1 from '../assets/website_content.svg'
-import img2 from '../assets/seo-tag 1.svg'
-import img3 from '../assets/immersive 1.svg'
-import img4 from '../assets/coding (1) 1.svg'
+import img1 from '../../assets/website_content.svg'
+import img2 from '../../assets/seo-tag 1.svg'
+import img3 from '../../assets/immersive 1.svg'
+import img4 from '../../assets/coding (1) 1.svg'
 
 function home1() {
   return (
-    <>
+    <div className={styles.main}>
         <div className={styles.main2}>
                 <div className={styles.main2_wrap}>
                     <div className={styles.main2_e}>
@@ -49,9 +49,12 @@ function home1() {
                 </div>
         </div>
         <div className={styles.main3}>
-            
+            <div className={styles.main3_wrap}>
+                <div className={styles.main3_text1}>Lorem Ipsum is Simply Dummy Text of the Printing.</div>
+                <div className={styles.main3_text2}>Lorem Ipsum is Simply Dummy Text of the Printing and typesetting industry.<br/>Lorem ipsum has been the industry's</div>
+            </div>
         </div>
-    </>
+    </div>
   )
 }
 

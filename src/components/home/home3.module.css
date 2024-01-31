@@ -1,0 +1,119 @@
+.main{
+    /* height: 70vh;     */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 248px;
+    margin-bottom: 184px;
+}
+.box{
+    height: 459px;
+    width: 572px;
+    border-radius: 20px;
+}
+.main1{
+    background-color: #F4F4F4;
+    float: left;
+    margin-left: 123px;
+    margin-right: 25px;
+}
+.main2{
+    background-color: #1090CB;
+    float: right;
+    margin-right: 123px;
+    margin-left: 25px;
+}
+.box_txt{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    
+}
+.box_txt>h1{
+    color: #252525;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 42.5px */
+    width: 365px;
+    height: 84px;
+    flex-shrink: 0;
+    margin-top: 6.4vh;
+    margin-left: 104px;
+}
+.box_txt>p{
+    color: #545454;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+    width: 476px ;
+    height: 141px;
+    flex-shrink: 0;
+    margin-top: 3.6vh;
+    margin-left: 48px;
+}
+
+.box1_txt>h1, .box1_txt>p{
+    color:#fff;
+
+}
+.box_btn{
+    height: 49px;
+    width: 153px;
+    border-radius: 10px;
+    margin-top: 36px;
+    border: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+}
+.box_btn1{
+    background-color: #1090CB;
+    color:#fff;
+}
+.box_btn2{
+    color: #1090CB;
+    background-color:#fff;
+}
+
+.main_bell,.main_bell>img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+
+}
+.main_bell{
+    margin-top: -81px;
+    margin-left: 351px;
+    transform: rotate(20.367deg);
+
+}
+
+.main10{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main10_txt{
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 159%; /* 38.16px */
+}
+.main10_txt>p{
+    margin: 0;
+}
+.main10_img{
+   margin-bottom: 87px;
+}

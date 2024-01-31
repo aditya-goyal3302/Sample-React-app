@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from './Home.module.css'
-import NavBar from './Nav/NavBar'
-import grp6 from '../assets/Group6.png'
+import NavBar from '../Nav/NavBar'
+import grp6 from '../../assets/Group6.png'
 import Home1 from './home1'
+import Home2 from './home2'
+import Home3 from './home3'
+import Footer from '../Nav/footer'
+
 const Home = () => {
 
 
@@ -32,6 +36,9 @@ const Home = () => {
                 <span className={styles.cir_g1}></span>
             </div>
             <Home1/>
+            <Home2/>
+            <Home3/>
+            <Footer/>
         </div>
     </div>
   )
